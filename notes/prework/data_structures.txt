@@ -1,0 +1,5 @@
+complexity analysis
+	how much TIME does an algo need? 
+	how much COMPUTATION does an algo need? 
+	Big-0 notation: gives upper bound of complexity in the worst case
+	you can notate time complexity and computation complexity using Big-0
