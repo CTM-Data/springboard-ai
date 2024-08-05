@@ -6,21 +6,122 @@ complexity analysis
 
 
 dynamic and static arrays
+	big o:
+		access: O(1) static, O(1) dynamic
+		search: O(n) for both
+		insertion: na static, O(n) dynamic
+		appending: na static, O(1) dynamic
+		deletion: na static, O(n) dynamic 
+	arrays are containers of fixed length whose elements are accessed by index values
+	dynamic arrays are actually fixed length, then a new array of original_len * 2 is created and the original values copied over 
+	
 
 linked and doubly linked lists
+	sequential list of data-containing nodes. each node points forward to the next node for singly
+	in doubly, each node points forward AND backward
+	in singly, the last node always points to null
+	Big o:
+		remove at head: O(1) for both
+		remove at tail: O(n) for singly, O(1) for doubly
+		remove in middle: O(n) for singly, O(n) for doubly
 
-stacks
 
-queues priority queues (min and max heaps)
+stacks (often implemented using linked lists)
+	vertical one-ended linear structure that centers around the "top" value. 
+	two main functions within stacks are push (add to top of list) and pop (grab highest element and remove it from the stack)
+	elements are always removed or added to the top of the pile 
+	big o:
+		pushing: O(1)
+		popping: O(1)
+		peeking: O(1)
+		searching: O(n)
+		size: O(1)
+
+
+queues 
+	linear data structure (not one-ended)
+	supports two main functions: enqueue and dequeue, add to back, take from front respectively
+	synonym for enqueue = 'adding' or 'offering'
+	synonym for dequeue = 'polling' or 'removing' (removing is specifically from the front of the queue in this case)
+	big o:
+		enqueue: O(1)
+		dequeue: O(1)
+		peeking: O(1)
+		contains: O(n)
+		removal: O(n)
+		is empty: O(1)
+	queues are used for breadth first search in a network
+	in bts, goal is to start at a node and hit all the nodes in the shortest possible time
+
+
+priority queues (min and max heaps)
+	similar to a normal queue, except every element has a given priority
+	elements w higher priority come out of the queue first
+	all elements must be comparable aka same data type and order some way
+	how does the machine know which elements have highest priority? 
+		does it sort a list? 
+		does it use a loop to search for the highest element? 
+	NO, it uses heaps, which are implementations of priority queues
+	heaps are tree-based data structures that satisfies heap invariant property
+		heap invaraint: if A is parent of B, then A is orderd with respect to B (either min or max)
+		aka parent is always greater than or always less than its children
+	binary heaps = each parents always has two children (null inserted if only one child exists)
+	big (o):
+		binary heap construction: O(n)
+		polling/removing: O(log(n))
+		peeking: O(1)
+		adding: O(log(n))
+		naive removing: O(n)
+		advanced removing w help from hash table: O(log(n))
+		naive contains: O(n)
+		containse check with help of hash table: O(n)
 
 union find 
-	ruskal's algorithm
-	other operations
-	path compression
+	data structure that keeps track of elements split into two disjoint sets
+	find will tell you what group an element belongs to
+	union will combine two groups together
+	Big O:
+		construction: O(n)
+		union: a(n) = amortized constant time, aka ALMOST constant time but not quite
+		find: a(n) = amortized constant time, aka ALMOST constant time but not quite
+		get component size: a(n) = amortized constant time, aka ALMOST constant time but not quite
+		check if connected: a(n) = amortized constant time, aka ALMOST constant time but not quite
+		count components: O(1)
+	Kruskal's algorithm: application of union find
+		given a graph (think a network, not an actual xy graph), find shortest route that touches all vertices but has lowest edge cost
+		sort vertices least to greatest, put into groups, then ignore or union based on condtions of group membership
+	path compression:
+		redirect nodes to the root node, such that each node alwyas points to the root, makign traversing the strurcture to find the root much more efficient
 
-binary search tree
+
+binary trees and binary search trees
+	data structure that is acyclic or has n nodes and n-1 edges
+	binary search tree means every parent has at most 2 kids
+	Big O: 
+		insert: average O(log(n)), O(n) worst. worst would be tree degenerates into a line
+		delete: average O(log(n)), O(n) worst. worst would be tree degenerates into a line
+		remove: average O(log(n)), O(n) worst. worst would be tree degenerates into a line
+		search: average O(log(n)), O(n) worst. worst would be tree degenerates into a line
+	left child of parnet is always less than root, right child greater than
+	trees can support duplicate values or not, that's up the instatiator
+	
 
 hash table
+	structure that constructs mapping from keys to values.	
+	the "mapper" is the hash function
+	all keys must be unique, values don't have to be unique
+	hash tables rely on hash functions, which take an input and spit out an output within a given range
+	if H(x) = H(y) then x and y MAY be equal, but if H(x) != H(y), x and y are DEFINITELY NOT equal
+	very important to build hash function such that you minimzie collisions, aka where H(x) = H(y)
+	keys in hash table must be immutable
+	big(o):
+		with properly uniform hash function, you can achieve O(1) time complexity!
+		if above it true, hash table becomes basically an array, with the hash function providing the index location
+	the hash function could spit out the index position where a key value pair could be placed.
+	then, to find the value of a key, you simply plug the value into the fucntion and pass the result as an idex. O(1) baby!
+	what happens in case of collision? you can use separate chaining or open addressing (one of many collsion techniques)
+	separate chaining: create an arry of linked lists, where each node of the list is the key value pair, stored at an index in the array determined by the hash function
+	
 
 
 left off at 4:10
