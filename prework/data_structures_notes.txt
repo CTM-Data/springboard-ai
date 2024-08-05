@@ -3,3 +3,26 @@ complexity analysis
 	how much COMPUTATION does an algo need? 
 	Big-0 notation: gives upper bound of complexity in the worst case
 	you can notate time complexity and computation complexity using Big-0
+
+
+dynamic and static arrays
+
+linked and doubly linked lists
+
+stacks
+
+queues priority queues (min and max heaps)
+
+union find 
+	ruskal's algorithm
+	other operations
+	path compression
+
+binary search tree
+
+hash table
+
+
+left off at 4:10
+
+
