@@ -1,0 +1,15 @@
+algorithm: set of steps for computer to accomplish a task
+
+algos are analyzed for correctness and efficiency
+
+you can create new algos! there are so many applications
+
+harnesses massive computational power to do interesting and useful things
+
+
+what makes a good algo? 
+	solves a problem
+	compute it efficiently 
+		how do you measure it efficiently? 
+		runtime is no good, b/c its context dependent: that computer, that input, etc. 
+		can't extrapolate beyond

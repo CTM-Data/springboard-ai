@@ -121,9 +121,8 @@ hash table
 	then, to find the value of a key, you simply plug the value into the fucntion and pass the result as an idex. O(1) baby!
 	what happens in case of collision? you can use separate chaining or open addressing (one of many collsion techniques)
 	separate chaining: create an arry of linked lists, where each node of the list is the key value pair, stored at an index in the array determined by the hash function
-	
 
 
-left off at 4:10
+Fenwick tree aka binary indexed tree
 
-
+suffix array
