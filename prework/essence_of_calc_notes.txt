@@ -1,0 +1,3 @@
+Chapter 1
+	integrals, deriatives, and the fact that they're opposite
+	fundamental theory of calculus
