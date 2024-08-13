@@ -40,4 +40,27 @@ word = 'taat'
 print(f'is {word} a palidrome?', is_palindrome(word))
 
 
+def is_even(n):
+    return n % 2 == 0
 
+def is_odd(n):
+    return n % 2 != 0 
+
+def power(x, n):
+    print(f'computing {x} raised to the power of {n}')
+
+    # base case:
+    if n == 0:
+        return 1
+    elif n == 1: 
+        return x
+    # recursive case: n is negative
+    elif n < 0: 
+        n = n * -1
+        return 1/power(x, n)
+    # recursive case: n is positive and odd
+    elif n > 1 and is_odd(n):
+        return power(x, n-1) * x
+    # recursive case: n is positive and even 
+    else: 
+        return power(x, n/2) * power(x, n/2)
