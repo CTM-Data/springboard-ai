@@ -1,0 +1,37 @@
+NAVIGATING THE CURRICULUM
+	ACTION: utilize study plan under the Clay Marquardt drop down
+	you can bookmark elements of curriculum and access them later under Clay Marquardt >> My bookmarks
+	ACTION: ensure my profile (Clay Marquardt >> Profile) is filled out
+	Clay Marquardt >> My Account: schedule curriculum breaks if needed
+	utilize the springboard community tab to connect with people in my cohort! 
+
+COURSE SUPPORT
+	Non-technical support: 
+		Student advisor: time management, online learning help, taking a break, etc. If you don't know who to talk to about a particular issue, reach out to the Student Advisor
+		Support team (access issues, billing, report a bug)
+		Career coaches: ACTION schedule a call in one month
+	Technical support:
+		Mentor
+		On demand mentors
+		Community manager: technical questions about course, answered within 24 hours
+		TAs: chat support
+
+BOOTCAMP SUPPORT
+	ACTION: read the entirety of the student handbook
+	Advising team will be main point of contact for general program stuff
+	Any technical questions: direct to other resources. Mentors, TAs. 
+	Program does NOT include a job guarantee or money back guarantee
+	Full refund can be requested within 7 days of completion
+	No refunds are available past week 17
+
+TECHNICAL SKILLS SURVEY
+	ACTION: did I pass the technical survey already? 
+	Am I in the foundations unit? (as opposed to core)? If so, I need to pass the technical skills survey at the end of the foundations unit
+	Units 1-10: foundations. beginner-intermediate stats and python needed for core and advanced curriculum. exercises, mini projects, etc. 
+	TSS is 3-4 test that let's springboard know if I'm ready to tackle the stuff that will come up in core and advanced 
+	6 WEEKS to review units 1-10 and take first TSS attempt
+	3 attempts to pass TSS, can reattempt TSS 24 hours after each attempt
+	If you don't pass at the end of 6 weeks, you can get a two-week grace period to study/take the retests
+	Student advising
+	Reach out regularly, be proactive!
+	 
