@@ -1,1 +1,27 @@
 4 data visualization detour
+
+VISUALIZING DISTRIBUTIONS
+	Data camp course CH 1	
+		Categorical (e.g. eye color) vs continuous (height in cm)
+		histograms: modality of a distribution: unimodal, bimodal, trimodel. modality = number of peaks
+		histograms: loook at the skewness of the distribution. left skew = extreme values on the left
+		histograms: kurtosis (occurance of extreme values):
+			leptokurtic: few extreme values, many occurances in middle value 
+			mesokurtic: typical bell curve
+			platykurtic: many extreme values make the distro look more like a hump than a bell curve
+		box plot: use when a continous variable (age) is split by category (occupation)
+	Data camp course CH 2
+
+	Logarithms
+		converts multiplication and division into additiona and subtraction
+		14 x 12: log14 + log12 = 2.2253. what number has a log of that? 168.
+		log (2) of 8 = 3: this means "2 to the 3rd power yields 8"
+		very small and very large numbers are made much easier to work with using logs
+		logs are just exponents. powers. 
+		logs are exponents backwards
+	Scatterplots
+		used to show relationships between two variables. 
+		x axis = independent
+		y = dependent
+		how to tell? 
+		should be used when you have two continous varibles. 
