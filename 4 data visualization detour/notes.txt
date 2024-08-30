@@ -25,3 +25,5 @@ VISUALIZING DISTRIBUTIONS
 		y = dependent
 		how to tell? 
 		should be used when you have two continous varibles. 
+
+	
