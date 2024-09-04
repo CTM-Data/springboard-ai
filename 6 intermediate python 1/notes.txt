@@ -1,0 +1,30 @@
+computational thinking
+	- logical thinking
+	- decomposition
+	- generalization
+	- algorithms
+	- abstraction
+
+
+
+lists v tuples
+	lists take up more memory, b/c they have added functionality
+	tuples are immutable. they cannot be changed
+	once you make a tuple, it is set in stone
+	tuple containing one element without typing comma will just return the data type: ("a") = 'a', ("a",) = ("a")
+	tuple assignment in python: 
+
+sets
+	useful when item order and frequency doesn't matter
+	set can contain different data types
+	in lists and tuples, the order matters. Doesnt matter in sets
+	sets are mutable
+	union and intersection of sets
+		union: combo of all items in set. A u B denotes union
+		intersection: A n B denotes intersection. only returns the elements A and B have in common
+
+data types in python
+	container sequences: hold other types of data
+	mutable: lists, sets or immutable: sets
+	combining lists: operators: +
+	tuple unpacking: very powerful when working in loops. e.g. a list of tuples: for tup[0], tup[1] in tuple_list:
