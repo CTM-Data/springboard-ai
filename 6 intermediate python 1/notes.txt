@@ -5,8 +5,6 @@ computational thinking
 	- algorithms
 	- abstraction
 
-
-
 lists v tuples
 	lists take up more memory, b/c they have added functionality
 	tuples are immutable. they cannot be changed
@@ -28,3 +26,13 @@ data types in python
 	mutable: lists, sets or immutable: sets
 	combining lists: operators: +
 	tuple unpacking: very powerful when working in loops. e.g. a list of tuples: for tup[0], tup[1] in tuple_list:
+
+collections module
+	new data types: counter, deque, namedTuple, orderedDict, defaultdict
+	Counter: takes any container as an argument, and will return a count of its contents in a dict-like format
+	Counter methods: element(), most_common(n), where n is the number of most common elements to return, subtract(), update(), clear()
+	Counter unions/intersection: with two counters, a and b, find the intersection using "a & b". union looks at both, takes max of each element: "a | b"
+	namedtuple: instatiate an object, where you can specify specific keyword attributes 
+	deque: so sick. lists, but you can reverse them, rotate them by n, append on either side, remove items, etc
+	orderedDict: subclass of dict, meaning it retains all the methods and attributes of a dict object, but is ordered and has dditional functionality around reordering the elements in it
+	 

@@ -1,0 +1,11 @@
+functions
+	essesse of programming. make things resuable. 
+	widespread use case 
+	
+
+scope
+	abbreviation to remember: LEGB, local, enclosing, global, built-in
+	local scope: variables assinged within function
+	enclosing scope: 
+	global scope: in the main body of the file
+	
