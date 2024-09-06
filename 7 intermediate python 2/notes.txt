@@ -24,6 +24,25 @@ lambda functions
 
 exceptions
 	objects containing description of error and traceback to where the error occurred 
+	try, except, else, finally
+	try: execute this first, if an error then go to except. if not errors then go to else. lastly, ALWAYS run the finally block
+	be as explicit in the except block as possible. except Exception is super broad and will capture every error. 
+	you want to explicitly indicate what error you are expecting. you want to catch errors that you expect, not all errors
+	by explicitly handling specific errors, you also ensure that other errors will kill the program, instead of being handled and moving forward
+	you can add multiple except blocks. 
+	put more specific exceptions at the top. if a general error is at the top, then that block will run, never hitting the specific error
+	else runs code that needs to be executed IF the try clause doesn't raise any errors 
+
+iterators
+	iterable = something that you can loop over (list, tuples, strings)
+	itertools modules: functions for iteration. 
+	
+iterators v generators
+	in python 2: range (iterator) vs xrange (generator). use of generator can be faster
+	range first generates a lsit in range(n) and then begins operations on it
+	xrange creates a generator, which manufacturs the next element in the sequence as needed. can be faster b/c you're not wasting front-end time to generate the list
+	
+zip and unzip
 	
 
 	
