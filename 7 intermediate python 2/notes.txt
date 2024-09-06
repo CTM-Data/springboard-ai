@@ -5,7 +5,25 @@ functions
 
 scope
 	abbreviation to remember: LEGB, local, enclosing, global, built-in
+	basically, python has an order in which it will look for function names
+	if you call print(x) in a function, it'll look in the function first for x, then enclosing, then a global x definition, finally in the builtins
 	local scope: variables assinged within function
-	enclosing scope: 
+	enclosing scope: pertains to nested functions. if a function is called within a function, it'll look in the first functions scope (local), then the enclosing functions local scope (aka enclosing scope), then global, builtins
 	global scope: in the main body of the file
+	built-in: to view built in scope: import builtins, print(dir(builtins))
+	use global keyword to get access to global variable (within  a fucntion for example)
+	use the nonlocal keyword to access a variable in an enclosing function
+
+lambda functions
+	aka anonymous functions. same thing
+	lambda keyword tells python you're writing an anonymous function
+	you can save the lamdba expression to a variable, which allows you to use it as a normal function
+	doesn't work with multiline functions
+	really nice b/c you can inject it as an argument into other variables
+	useful when you need a short, throw-away function
+
+exceptions
+	objects containing description of error and traceback to where the error occurred 
+	
+
 	
