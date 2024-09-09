@@ -42,7 +42,9 @@ iterators v generators
 	range first generates a lsit in range(n) and then begins operations on it
 	xrange creates a generator, which manufacturs the next element in the sequence as needed. can be faster b/c you're not wasting front-end time to generate the list
 	
-zip and unzip
+args and kwargs
+	*args collects all the POSITIONAL arguments into one variable as a TUPLE
+	**kwargs collects all KEYWORD arguments into one variable as a DICTz
 	
 
 	
