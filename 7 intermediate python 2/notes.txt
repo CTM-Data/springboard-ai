@@ -60,6 +60,14 @@ iterables and iterators
 	zip
 	
 	
+list comprehension vs generator
+	[expression] = list comp, (expression) = generator
+	list comprehension returns a list, generator returns a generator object that can be iterated over 
+	you can pass it to the next() function 
+	the main advantage is that it works really well when working with huge amounts of data, where you don't need all of it in memory,
+		but you just need to access the next element as needed.
+	you can use conditionals in a generator
 	
-
-	
+generator functions
+	when called, they produce generator functions. 
+	instead of using return keyword, use the yield keyword
