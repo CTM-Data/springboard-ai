@@ -55,6 +55,10 @@ errors and exceptions
 	exceptions - caught during execution, use try/except clauses
 	if you just use except: , you catch all errors. you can also specifiy except TypeError (for example), to catch ONLY that particular kind of error
 	
+iterables and iterators
+	enumerate
+	zip
+	
 	
 	
 
