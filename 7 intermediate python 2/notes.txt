@@ -44,7 +44,18 @@ iterators v generators
 	
 args and kwargs
 	*args collects all the POSITIONAL arguments into one variable as a TUPLE
-	**kwargs collects all KEYWORD arguments into one variable as a DICTz
+	**kwargs collects all KEYWORD arguments into one variable as a DICT
+
+map, filter, reduce
+	map(function, iterable): performs the function on each element in the iterable. pass it to list() to get a list of the outputs
+	filter(function, iterable): returns the data for which the function is true. pass to list() to get list of outputs
+	reduce: 99% of the time, explicit for loop is more readable. 
+	
+errors and exceptions
+	exceptions - caught during execution, use try/except clauses
+	if you just use except: , you catch all errors. you can also specifiy except TypeError (for example), to catch ONLY that particular kind of error
+	
+	
 	
 
 	
