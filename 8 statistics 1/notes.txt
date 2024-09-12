@@ -1,0 +1,13 @@
+STATISTICS 
+	variables
+		quantitative vs categorical
+		categorical can have two types: ordinal (ordered e.g. letter grades in school) and nominal (non-ordered, e.g. nfl team preference)
+		quantitative can have two types: discrete (e.g. the numbers of times I've run this week) vs continuous (any numerical values)
+	population v sample
+		population: N (case sensitive)
+		sample: n (case sensitive)
+	measures of spread
+		interquartile range: spread of the middle 50%
+		range: largest value - smallest value 
+		variance: calculate each point's difference from the mean/ number od data points
+		sample variance, if calculated like above, would always be a little smaller than the population variance: divide by number of samples - 1 to get proper number
