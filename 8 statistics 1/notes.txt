@@ -11,3 +11,23 @@ STATISTICS
 		range: largest value - smallest value 
 		variance: calculate each point's difference from the mean/ number od data points
 		sample variance, if calculated like above, would always be a little smaller than the population variance: divide by number of samples - 1 to get proper number
+		standard deviation: used ONLY when distribution is approximately normal. represented by greek letter sigma σ
+			68, 95, 99.7 rule: 1, 2, 3 standard devs away from mean comprises the data
+	finding sd, variance, mean, median, mode, and range for given data
+		step 1: sort data from lowest to highest 
+		variance (aka s**2), for x in a list of data, and x bar being the mean, compute x - xbar for each value. 
+		square each resulting difference. add the squares togther. for sample variance, divide by (n-1), where n is number of items in the list
+		for standard deviation, s, take the square root of the variance 
+	probability
+		empirical probability: what we observe, often in a sample of the data
+		theoretical probability: the "true" ratio of something happening, not something we can actually measure most of the time
+		addition rule of probability IF EVENTS ARE MUTUALLY EXCLUSIVE: p of getting outcome 1 or outcome 2 is the sum outcome's individual probability 
+		prob notation: P(red) means probability of getting a red (perhaps picking a red skittle out of a bag)	
+		addition rule IF EVENTS AREN'T MUTUALLY exclusive: p(event1 or event 2) = p(event1) + p(event2) - p(event1 and event2)
+		multiplication rule: p(event1 and event2) = p(event1) * p(event2)
+		independent events: p(event1) is not changed by whether event2 occured 
+		conditional probability: p(event1 | event2) = probability of event1 given that event2 has already happened
+			calculated: p(1|2) = p(1 and 2) / p(2)
+		bayesian statistics 
+			similar to conditional probability: updating beliefs as new information comes in 
+		law of large numbers: are the number of the sample grows, the sample means gets closer and closer to the true population mean 
