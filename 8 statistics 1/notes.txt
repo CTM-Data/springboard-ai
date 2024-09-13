@@ -42,3 +42,15 @@ STATISTICS
 		chi-squared, asymetric, always starts from 0 
 	binomial distributions
 		binomial coefficient formula: nCk (n choose k). 
+	central limit therom
+		if you take repeated means from a non-normal distribution, the means themselves will become normally distributed as you take repeated means
+	the poisson distribution
+		closely related, poisson process: events 
+
+	bivariaate data: relationship between two continuous variables. 
+	p-values
+		statistical inference: move from describing data we have to making inferences about the larger population
+		p-values help test hypotheses 
+		null hypothesis significance testing
+		
+	confidence interval: the middle is still the sample mean, but we've got room on either side. 
