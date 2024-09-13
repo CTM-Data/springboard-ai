@@ -30,4 +30,15 @@ STATISTICS
 			calculated: p(1|2) = p(1 and 2) / p(2)
 		bayesian statistics 
 			similar to conditional probability: updating beliefs as new information comes in 
-		law of large numbers: are the number of the sample grows, the sample means gets closer and closer to the true population mean 
+		law of large numbers: are the number of the sample grows, the sample means gets closer and closer to the true population distributions mean
+	distributions
+		normal dist: bell curve. unimodal: only one peak
+		right/left skew. the skew is the long side of the tail. tend to have bigger range and larger standard deviation
+		bimodal / multimodal data: 2 or more peaks in the data. 
+		uniform distribution: each value in the distribution has the same frequency
+		bernoulli dist: events iwth only two possible outcomes. 
+		binomial distribuion: two events, but calculated many times
+		poisson distribution: test how unusual a particular event. 
+		chi-squared, asymetric, always starts from 0 
+	binomial distributions
+		binomial coefficient formula: nCk (n choose k). 
