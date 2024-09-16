@@ -1,0 +1,13 @@
+4 areas of focus
+	data focused engineer - OPINION: very much the most common type of models that are needed in govt contracting, etc
+		data is the star of the show
+		focus on handling large amounts of data efficiently
+		focus on fully automated ingestion solutions
+		improving model performance by improving data quality: lots of preprocessing, acquisition, cleaning
+	model-focused engineer*
+		model is the star of the show
+		feature engineering: picking the right model, fine-tuning it using diff parameters, avoiding overfitting, etc
+		not just using out of box solutions: new ones or stacking/combining existing techniques
+		really getting into the weeds from a model-selection standpoint
+	architecture-focused engineer*
+	product-driven engineer

@@ -1,0 +1,35 @@
+machine learning fundamentals
+	k-nearest neighbor: when new data point appears, classify it using the label the category with the most data points near this new point
+	types of learning
+		supervised: labeled data
+		unsupervised: data with no label
+		reinforcement: human give positive/negative feedback on algo's output, which help algo improve
+bias-variance tradeoff
+	training data: usually a sample, and differenet samples will vary slighly b/c of randomness
+	variance: assume a k random samples of data, which would result in k models. variance is the amount these models' predictions would differ
+	bias: assume a k random samples of data, which would result in k models. how right or wrong the average prediction (across k models) is
+	underfitting: model is very simple, not picking out nuance in the training data, focusing on few parameters (gpa only for med school admissions)
+	overfitting: model too complex: its identified the nuance in the data, but it's also falsely identified the "noise" of the data (due to randomness) as a crucial preditive factor
+	inherent tradeoff: when you optimize for bias, you sacrifice variance. same the other way around. goal is to get reasonably low bias and reasonably low variance.
+types of machine learning problems
+	just read the article
+when to use ml vs stats
+	they aren't the same. 
+	stats are good with smaller datasets, and examining specific relationships between dependent and independent variables
+	ml doesn't make assumptions about the distribution of the data (needing to be normal, for example)
+	it depends on the problem you're trying to solve, so you need discernment as to which is more appropriate
+	stats are easier to interpret b/c the model is relatively "simple", where ML can be less interpretable, bit of black box
+difference between machine learning and deep learning
+	subset: ai >> ml >> neural networks >> deep learning
+	layers: more than 3 layers = deep learning
+	intervention y/n: ml is typically associated with supervised learning, where a human assigns priority and weights to the inputs
+accuracy-explainability tradeoff
+	hypothesis: as models get more accurate, they need to get more complex, but that comes at the expense of being able to understand WHY the model is predicting the way it is
+	in truth: the tradeoff may or may not actually exist. in this video, "black-box" models performed no worse on explainability metrics 
+	conversely, the "simple" models often didn't perform worse in terms of accuracy. 
+	conclusion: the idea of this tradeoff is false, it's not that simple
+visual intro to ml
+	ml is about drawing boundaries in the data where the data are different, using stat models
+	a decision tree is a good example, for each layer, a boundary is drawn within a dimension and then if-then statements traverse the tree
+	overfitting: when you make distinctions in the data that don't actually matter, so that the model performs worse on data that it hasn't seen before
+

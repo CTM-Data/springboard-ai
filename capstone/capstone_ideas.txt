@@ -1,0 +1,9 @@
+- chess engine that explains postion evaluation or move recommendation in plain english
+- fantasy football model that predicts player performance for an upcoming game
+- fantasy football model that predicts end of season rankings at beginning of season or during the season
+- fantasy football: evaluate player's potential based on watching the game? 
+- fantasty football: unsupervised learning: classification/cluster of player as league-winner, potential, steady, duff, etc
+- classification of item or item category based on description, supplier, spend amount, etc 
+- vendor name normalization: given different spend datasets, map similar names to their proper vendor normalized name in a more accurate way
+- given a dashboard, generate human-readable suggestions/actions to take
+- budgeting: help people do better
