@@ -1,13 +1,24 @@
 4 areas of focus
-	data focused engineer - OPINION: very much the most common type of models that are needed in govt contracting, etc
+	(1/2) data focused engineer* - OPINION: very much the most common type of models that are needed in govt contracting, etc
 		data is the star of the show
 		focus on handling large amounts of data efficiently
 		focus on fully automated ingestion solutions
 		improving model performance by improving data quality: lots of preprocessing, acquisition, cleaning
-	model-focused engineer*
+	(1/2) model-focused engineer*
 		model is the star of the show
 		feature engineering: picking the right model, fine-tuning it using diff parameters, avoiding overfitting, etc
 		not just using out of box solutions: new ones or stacking/combining existing techniques
 		really getting into the weeds from a model-selection standpoint
-	architecture-focused engineer*
-	product-driven engineer
+	(3) architecture-focused engineer
+		engineering and software architecture are the stars of the show
+		custom cloud solution to house the application
+		solution will be enterprise-like, complete with developer-oriented documentation
+	(4) product-driven engineer	
+		product/app is the star of the show
+		be able to show how it works to anyone
+		have a website that shows off the product
+
+stick to particular areas of ml
+	they recommend deep learning applications, specifically NLP or computer vision
+	if a student does a more "traditional" model (regression, random forests, etc), they recommend beefing up the engieering and deployment side so that the project is rigorous enough
+

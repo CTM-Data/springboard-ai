@@ -1,0 +1,15 @@
+ethics and bias in ml
+
+the moral grey space of AI decisions
+	building AI applications for general use carry an added burden of consideration and responsibility on the part of the developers
+	waze: route ppl away from poor neighborhoods bc of crime? unintended consequences of that
+	self driving cars: if the car needs to swerve, which way? into what other vehicle (smallest, largest) should it? 
+	there are serious ethical consequences to using these tools adn they should be taken seriously
+6 types of ai bias to be aware of
+	historical: using historical data that contained a "bias" in some way: amazon cv screener: trained on 10 years of amazon resumes, mostly male, so moving forward the model tended to prefer male resumes
+	sample: example: text to speech being trained on audio books: narrators are mostly white men, which is a particular speech patten out of many in US, so the model performed worse on other ethnicities 
+	label: pictures you show an image recognizer aren't varied enough: e.g. pics of a lion only face on, so model can't tell that the profile of a lion is a lion
+	aggregation: grouping different groups' outcomes into one "outcome", ignoring the granularity, leads to over generalizing, possibly falsely representing certain groups' outcomes or experiences
+	confirmation: ignore the results I don't agree with, give priority to the ones that fit my pre-existing worldview
+	evaluation: test model on niche group, expect results to scale with increased diverity of data
+why ai design must prioritize data privacy 
