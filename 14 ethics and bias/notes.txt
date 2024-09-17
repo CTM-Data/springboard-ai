@@ -12,4 +12,26 @@ the moral grey space of AI decisions
 	aggregation: grouping different groups' outcomes into one "outcome", ignoring the granularity, leads to over generalizing, possibly falsely representing certain groups' outcomes or experiences
 	confirmation: ignore the results I don't agree with, give priority to the ones that fit my pre-existing worldview
 	evaluation: test model on niche group, expect results to scale with increased diverity of data
-why ai design must prioritize data privacy 
+navigating the legal landscape: ai and current laws
+	main challenges of ai:
+		data privacy
+		intellectual property
+		liability
+		ai ethics and bias
+overview of global ai regulatory developments
+	eu, canada, us, brazil, and more are rolling out regulatory frameworks
+	companies can get ahead by being great at risk identication and mitigation of its highest-risk systems
+what is ethical ai and how can companies achieve it? 
+	while govt intervetion will be necessary, companies themselves must bear much of the burden
+	ethical AI is not a list of ten commandments, it's more complicated.
+	having someone overseeing the building of a program (ai ethics officer, for example) is helpful
+	conducting risk assessments on models could be good
+	checklists that front-line data scientists have to fill out could be good
+ethical issues of facial recognition technology
+	facial recognition isn't perfect, it performs worst on minorities that whites
+	the impact of this current reality varies on the use case. in law enforcement decisions, it could be very impactful 
+
+	
+	
+	
+	
