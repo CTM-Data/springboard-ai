@@ -7,3 +7,4 @@
 - vendor name normalization: given different spend datasets, map similar names to their proper vendor normalized name in a more accurate way
 - given a dashboard, generate human-readable suggestions/actions to take
 - budgeting: help people do better
+- news: summarize the contents of an article, removing any bias. extract the facts from it
