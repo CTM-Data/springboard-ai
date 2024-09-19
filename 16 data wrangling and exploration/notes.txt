@@ -1,0 +1,15 @@
+Exploratory Data Analysis techniques
+	basic descriptive statistics
+		mean, median, mode
+		range (min, max) 
+		standard deviation
+		iqr
+	for nominal data: 
+		frequencies
+		proportion
+		percentage
+
+feature engineering
+	data splitting
+		train_test_split() function in scikit learn. 80% of data should be train, 20% should go to test
+		
