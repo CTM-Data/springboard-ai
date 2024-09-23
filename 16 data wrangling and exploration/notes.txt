@@ -12,4 +12,23 @@ Exploratory Data Analysis techniques
 feature engineering
 	data splitting
 		train_test_split() function in scikit learn. 80% of data should be train, 20% should go to test
+	feature engineering techniques
+		imputation: replacing missing values
+		one-hot encoding: converting categorical data into a form better understood by a model
+		bag of words: counting algo that counts how many times words are used in a particular document
+	feature engineering (datacamp)
+		The majority of machine learning models require you to have a consistent data type across features
+		categorical variables need to be converted into a number, but you can't make it ordered. 
+		instead, make a column for each value in teh column and then uses 1 or 0. 
+		one-hot encoding: explicitly include all categories within a column as their own column
+		dummy encoding: more implicit. e.g. if you have a gender column, you don't need a male column and a female column. when male == 0, that's obviously a female
+		in both approaches, you can get a lot of columns as your features, so be careful
+		working with numeric data: magnitude may or may not matter. you can engineer the numeric column to be a binary one, where 1 captures any value over a threshold, else 0. it depends on the specific case
+		binning numeric: bin into more than 2 bins. exact numbers are less relevant than general magnitude
+		pd.cut = function for binning	
+	TAKEAWAY for python:
+		sk_learn.model_selection.train_test_split() - split data into train and test
+		pd.get_dummies - helps workign with categorical data. one-hot or dummy encoding supported
+		pd.cut - helps with binning numerical data into categorical labels
+		
 		
