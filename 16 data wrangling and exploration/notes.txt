@@ -30,5 +30,7 @@ feature engineering
 		sk_learn.model_selection.train_test_split() - split data into train and test
 		pd.get_dummies - helps workign with categorical data. one-hot or dummy encoding supported
 		pd.cut - helps with binning numerical data into categorical labels
-		
+	dealing with missing values
+		(pd.dropna()) IF you can be sure that missing values are happening randomly, then you can utilize "complete case analysis" or "list-wise deletion" aka delete any ROW that has a missing value in any of its fields
+		(pd.fillna()) another common way: fill missing with "no value given" or something like that
 		
