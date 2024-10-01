@@ -1,0 +1,15 @@
+subquery in sql
+	subqueries are typically passed in the WHERE clause
+database normalization
+	first normal form to fifth normal form
+	first is most risky, fifth is most safe
+	normalization
+	first normal form violation: row order should never convey information in and of itself
+	first normal form violation: mixing data types
+	first normal form violation: not having primary keys
+	first normal form violation: repeating group of data
+	second normal form: each attribute (column) of a table must be entirely depending all of the primary key
+	third normal form: no transitive dependencies. dependence of non-key attribute on another non-key attribute
+	in many cases, once you get to third normal form you have fully normalized the database
+	insertion, deletion, update anomolies
+	
