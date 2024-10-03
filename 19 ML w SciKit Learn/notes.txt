@@ -1,0 +1,22 @@
+end to end ML process
+	Collection of Data
+	Data Wrangling
+	Model Building
+	Model Evaluation
+	Model Deployment
+a tour of ml algorithms
+	learning styles
+		supervised
+		unsupervised
+		semi-supervised
+	grouped by function
+		regression - model a relationship between variables
+		instance-based - compare new problems or data to previously-seen data in order to classify
+		regularization - usually related to reducing overfitting and improving a model's ability to generalize
+		decision trees - run a new data point through a tree that uses forks until a prediction is made 
+		bayesian algos - estimate the probability of an event based on prior knowledge 
+		clustering algorithms - methods to group parts of data together by maxiumum commonality 
+		association rule learning algorithms - extract rules that explains observed relationships, often end up in an "if-then" format, where "then" is the outcome
+		artifical neural networks - pattern matching meant to emulate the a biological neural network
+		deep learning algorithms - build much larger and more complex neural networks 
+		dimensionality reduction algorithms - 

@@ -10,6 +10,16 @@ database normalization
 	first normal form violation: repeating group of data
 	second normal form: each attribute (column) of a table must be entirely depending all of the primary key
 	third normal form: no transitive dependencies. dependence of non-key attribute on another non-key attribute
+	fourth normal form: multivalue relationships can only depend on the key, not on another column
+	fifth normal form: if a table can be logically thought of as being the result of a join, then it's NOT in fifth normal form. 
 	in many cases, once you get to third normal form you have fully normalized the database
 	insertion, deletion, update anomolies
-	
+
+partitioning, sharding, and replication
+	sharding: server
+	partition: data
+	you shard a database into multiple instances as needed
+	you partition the data to flow equally through each shard, increasing the throughput of each db instance
+	you can have multiple paritions of data flow through one server
+	load balancing: moving paritions of data across shards to improve performance (if, for instance, one partition is getting a lot of requests and slowing down the performance of the other partitions in the shard, you can move the affected partitions to another shard)
+	 
