@@ -20,3 +20,11 @@ a tour of ml algorithms
 		artifical neural networks - pattern matching meant to emulate the a biological neural network
 		deep learning algorithms - build much larger and more complex neural networks 
 		dimensionality reduction algorithms - 
+ml using scikit learn (linkedin learning)
+	feature - measureable value of the data (aka age of a football player)
+	target - the array for which you will make predictions. ppg_ppr in fantasy football example. its the array that will house your prediction values at the end of the process
+	supervised learning falls into 2 categories:
+		predict continuous value (a regression problem)
+		predict a categorical value (a classification problem)
+	in scikit learn, you can't have missing values in your model
+	LinearRegression: fit_intercept is a 
