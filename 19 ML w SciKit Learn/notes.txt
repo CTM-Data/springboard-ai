@@ -20,7 +20,7 @@ a tour of ml algorithms
 		artifical neural networks - pattern matching meant to emulate the a biological neural network
 		deep learning algorithms - build much larger and more complex neural networks 
 		dimensionality reduction algorithms - 
-ml using scikit learn (linkedin learning)
+SUPERVISED LEARNING WITH SKLEARN - LINKEDIN
 	feature - measureable value of the data (aka age of a football player)
 	target - the array for which you will make predictions. ppg_ppr in fantasy football example. its the array that will house your prediction values at the end of the process
 	supervised learning falls into 2 categories:
@@ -34,4 +34,16 @@ ml using scikit learn (linkedin learning)
 	Decision trees: helpful b/c its very interpretable. can be high variance, so make sure to train-test split. tuning the model based on max_tree_depth is important
 	Bagged trees: makes multiple trees to "protect" against overfitting in decision trees. you also don't have to standardize
 	feature matrix: the columns and rows of the x variable. target vector: single dimension array of your y values
-	random forests: variant of a bagged tree model, used to make trees less correlated
+	random forests: variant of a bagged tree model, used to make trees less correlated.
+	how to choose a ml model to use? 
+		choosing a model is one of the hardest things to use. 
+		refer sklearn's algo cheatsheet
+UNSUPERVISED LEARNING WITH SKLEARN - LINKEDIN
+	train an algorithm WITHOUT giving it examples of the outcome. in sklearn, you just feed it a features matrix
+	unsuperivsed models DON'T make predictions.  
+	common types of unsupervised: 
+		- dimensionality reduction
+		- clustering
+	principal component analysis (PCA): framework to reduce dimensionality in your data 
+HOW TO KEEP ML CODE CLEAN AND ORGANIZED? 
+	use piplelines object in sklearn. pass tuples of labels and models/transofmrations and sklearn will store it in one object. 	
