@@ -28,3 +28,10 @@ ml using scikit learn (linkedin learning)
 		predict a categorical value (a classification problem)
 	in scikit learn, you can't have missing values in your model
 	LinearRegression: fit_intercept is a 
+	Logistic regression
+		even tho it contains "regression" it's actually a classification model
+	One vs Rest (aka One vs All) - a way to use logistic regresssion to a multiclass clasffication problem
+	Decision trees: helpful b/c its very interpretable. can be high variance, so make sure to train-test split. tuning the model based on max_tree_depth is important
+	Bagged trees: makes multiple trees to "protect" against overfitting in decision trees. you also don't have to standardize
+	feature matrix: the columns and rows of the x variable. target vector: single dimension array of your y values
+	random forests: variant of a bagged tree model, used to make trees less correlated
