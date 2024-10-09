@@ -47,3 +47,9 @@ UNSUPERVISED LEARNING WITH SKLEARN - LINKEDIN
 	principal component analysis (PCA): framework to reduce dimensionality in your data 
 HOW TO KEEP ML CODE CLEAN AND ORGANIZED? 
 	use piplelines object in sklearn. pass tuples of labels and models/transofmrations and sklearn will store it in one object. 	
+DECISION TREES AND FORESTS
+	decision trees
+		entropy: how similar the data in a split of a tree is. you want to make splits in such a way that each resulting leaf has low entropy. 
+	bagging and ensembling 
+		bagggig: use replacement sampling to take sample of rows and train indivudal models. feed prediction into each model adn reutnr the majority-voted one
+		random forest: sampels the rows AND the columns, then makes decision tree for each then return the majority vote or the average prediction
