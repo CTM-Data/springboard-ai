@@ -53,3 +53,6 @@ DECISION TREES AND FORESTS
 	bagging and ensembling 
 		bagggig: use replacement sampling to take sample of rows and train indivudal models. feed prediction into each model adn reutnr the majority-voted one
 		random forest: sampels the rows AND the columns, then makes decision tree for each then return the majority vote or the average prediction
+	random forest
+		tree = decision trees
+		
