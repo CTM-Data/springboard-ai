@@ -1,0 +1,6 @@
+model evaluation metrics
+	confusion matrix: NxN (N is possibilities of target outcome) that shows frequency of true positives, true negatives, false positives, and false negatives)
+		numbers are calculated from these:
+			accuracy: sum of correctly identified data points (either as 0 or 1, doesn't matter) / divided by total
+			precision (good metric when cost of false positives is high): of the values that were predicted to be positive (e.g. this email IS a spam email), what % were true positives?
+			recall: 
