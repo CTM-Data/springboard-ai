@@ -1,6 +1,43 @@
+METRICS
 model evaluation metrics
 	confusion matrix: NxN (N is possibilities of target outcome) that shows frequency of true positives, true negatives, false positives, and false negatives)
-		numbers are calculated from these:
-			accuracy: sum of correctly identified data points (either as 0 or 1, doesn't matter) / divided by total
-			precision (good metric when cost of false positives is high): of the values that were predicted to be positive (e.g. this email IS a spam email), what % were true positives?
-			recall: 
+	f1 score: uses metrics from confusion matrix to make one number
+	gain and lift charts
+	k-s score
+	AUC - ROC: 
+	log loss
+	gini coefficient
+	concordant - discordant ratio
+	root mean squared error 
+	root mean squared log error
+	r-squared
+	cross validation
+	
+ml model evaluation metrics
+	eval metric vs loss function. loss is during training, eval is post-training
+	supervised learning metrics
+		classification
+			accuracy: total correct predictions (could be 1 or 0, doesn't matter) / total predictions. may or may not tell us much, depends on how the data looks
+			precision (care more about false positives): true postives / count where prediction = 1
+			recall (care more about false negatives): true positives / count where actual = 1
+			f1 score (very sensitive to what class you label positive): harmonic mean of precision and recall. harmonic takes smaller values more seriously, weights them
+			matthew correlation coefficient: looks at all four numbers from confusion matrix
+		regression
+
+ROC and AUC
+	basically graphing the proportion of correctly-classified samples against the proportion of incorrectly-classified samples. 
+	roc: helps identify best threshold for making a decision
+	auc: compare the areas under the curve of different models to help you evaluate them
+	
+Building a Baseline
+	baseline: simple model, easy to implement, not complex. you compare more complex builds to this one, to make sure you're actually making measurable improvements for the added time adn complexity
+	baselines can often be very effective, if tuned properly. comparing a novel appraoch to a weak baseline give the false impression of improvement/progress. make sure the baseline is rigorously set up to make the testing fair
+	improving baselines strategically:
+		do not add unecessary complexity: start w simple model that is known to perform reasonably well. if adding complex increases performance marginally, leave the complexity out
+		find the limits of your baseline: extensively tune parameters, use regularization techniques, do some data massaging
+		gradually progress toward complex models: add one parameter at a time, assess the performance, then decide to keep it or nah. always be aware and be able to express what you are trading off when adding parameters
+
+
+AUTO ML
+	helps non-expert practitioners quickly discover reasonably good models for their classification or regression tasks
+	auto ml library: install it and play around.
