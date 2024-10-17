@@ -41,3 +41,36 @@ Building a Baseline
 AUTO ML
 	helps non-expert practitioners quickly discover reasonably good models for their classification or regression tasks
 	auto ml library: install it and play around.
+
+DATA PARTITIONING
+	when data size is insufficient, train-test-split may be inappropriate. k-fold cross validation might be a better move
+
+MODEL GENERALIZATION
+	biggest problems are overfitting and underfitting
+	underfitting is obvious b/c the model will perform poorly on the test data
+	overfitting is the largest problem. You can reduce risk by train/test/split or using resampling: aka training multiple models on different subsets of the data, then aggregating their prediction (averge for regression, majority vote for classification)
+
+HYPERPARAMETERS AND PARAMETERS (DATACAMP)
+	parameters: components of the final model that the algo discovers as it learns. simple example: the coefficients of a linear regression model are the model's parameters
+	parameters, tree based models: parameters are in the nodes themselves: what feature and what value was split on, for example
+	hyperparameters: something you set BEFORE the modeling process. the model doesn't learn or infer these. printing out the instance of our model will show the hyperparameters used
+	some hypers won't help model performance at all; they are related to computational decisions or what information to retain for future analysis
+		for example, using a random forest model: n_jobs (only changes modeling time), random_state, and verbose. 
+	important hyperparameters, using random forest: n_estimators, max_features, max_depth and min_sample_leaf, (maybe) criterion, 
+	top tips for deciding which values to try for different hyperparameters
+		you can use for loops: given a list of n_estimator possibilites, for example, loop through each and create a model with that hyper parameter, append the accuracy scores of each to a list. then make a dataframe to store the results
+		if you need to test a ton of values, then you could use the range() function and graph the results, rather than using a dataframe
+		if you need to generate a list of FLOAT values, range() won't work. use numpy's linespace() function instead
+
+GRID SEARCH (DATACAMP)
+	grid search is related to automated hyperparameter training. 
+	pros: saves lines of code; does away with nested loops for multiple hyperparameters, finds the best model within the grid (make sure you make the possible values reasonable)
+	cons: expensive: the number of models created will quickly grow in an exponential way. lastly, it's uninformed, meaning the results of the previous model don't inform how the next model is created. it could be better or worse
+	it's a sci-kit learn object: GridSearchCV. amazing stuff. 
+	the GridSearchCV object has a ton of useful properties you can explore. super amazing stuff.
+
+RANDOM SEARCH (DATACAMP)
+
+INFORMED SEARCH (DATACAMP)
+	
+	
