@@ -75,7 +75,13 @@ RANDOM SEARCH (DATACAMP)
 	why does this work? not all hyperparameters are that important, and using probability, you can reasonably expect to have a 95% chance if you take >= 59 samples
 	scikit learn has a RandomSearchCV module!!
 	key differences from grid_search: n_iter and param_distribution
+	grid v random: exhaustive v sampling, more expensive v less, guaranteed to find best score v not guaranteed
 
-INFORMED SEARCH (DATACAMP)
+INFORMED SEARCH (DATACAMP)	
+	coarse to fine tuning: combines grid search and random search in a cool way. 
+	conduct random search, then grid search promising areas of the random search. continue until search space is too small or optimal result is obtained
+	informed search, bayesian statistics. what's bayes' rule: calculates the probability of event A given that B has already occured.
+	hyperopt: libary for bayesian hyperparamter tuning
+	
 	
 	
