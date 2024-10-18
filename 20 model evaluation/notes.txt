@@ -70,6 +70,11 @@ GRID SEARCH (DATACAMP)
 	the GridSearchCV object has a ton of useful properties you can explore. super amazing stuff.
 
 RANDOM SEARCH (DATACAMP)
+	similiar to grid search
+	randomly sample from the n combinations of hyperparameter values and try those.
+	why does this work? not all hyperparameters are that important, and using probability, you can reasonably expect to have a 95% chance if you take >= 59 samples
+	scikit learn has a RandomSearchCV module!!
+	key differences from grid_search: n_iter and param_distribution
 
 INFORMED SEARCH (DATACAMP)
 	
