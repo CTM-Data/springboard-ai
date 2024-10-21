@@ -82,6 +82,9 @@ INFORMED SEARCH (DATACAMP)
 	conduct random search, then grid search promising areas of the random search. continue until search space is too small or optimal result is obtained
 	informed search, bayesian statistics. what's bayes' rule: calculates the probability of event A given that B has already occured.
 	hyperopt: libary for bayesian hyperparamter tuning
+	informed search methods: bayesian statistics
+	informed search: genetic algorithms. learns from previous iterations, like bayesian, but also has some randomness, to make sure we don't just hit a local optimum and miss and meta optimum 
+	library TPOT: 
 	
 	
 	
