@@ -1,0 +1,4 @@
+Introduction to Deep Learning (Data Camp)
+	keras: less code, more abstracted, open source
+	integrated with tensorflow, which is more low-level (aka if you need more granual control)
+	neural networks: really good with unstructure data 
