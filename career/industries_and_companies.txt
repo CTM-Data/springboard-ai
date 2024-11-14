@@ -1,4 +1,45 @@
+industry unclear
+	s&p global
+	
 cloud
 	ibm
 	aws
+	microsoft
+	crusoe
+
+banking/finance
+	capital one
+	jpmorgan chase
+
+consulting
+	accenture
+	deloitte
+	EY
+	PWC
+	bain
+	mckinsey
+	
+healthcare
+	augmedix
+	deep scribe
+	nabla
+	atomwise
+	recursion
+	
+retail and e-commerce
+	amazon
+	salesforce
+
+supply chain
+
+energy?
+	duke energy
+	schneider electric
+	deepmind
+	shell
+	exxonmobil
+	bp
+	
+
+data centers?
 	
