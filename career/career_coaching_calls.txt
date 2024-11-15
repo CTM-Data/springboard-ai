@@ -1,0 +1,19 @@
+CALL 1
+	overall:
+		identify 7-10 industires of interest
+		identify 10 companies of interest within each pillar		
+	
+	action: send resume and bring 3 companies of interest. focus on networking 
+	action: follow linked people in AI, be active on linkedin 
+	action: once a month, make a career call
+	action: think about 2 industries per call
+	instead of springboard in the linkedin, do uc san diego 
+
+	regression proof industries:
+		banking
+		computer vision
+		medical field
+
+
+CALL 2
+	
