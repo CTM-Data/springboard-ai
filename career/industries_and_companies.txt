@@ -1,25 +1,31 @@
 industry unclear
 	s&p global
 	
-cloud
+cloud - very saturated. layoffs. not a ton of AI specifically, focusing on data engineering/data science
 	ibm
 	aws
 	microsoft
 	crusoe
+	snowflake
+	cisco
 
 banking/finance
 	capital one
 	jpmorgan chase
 
-consulting
+consulting (typically a little more tenured, very specialized)
 	accenture
 	deloitte
 	EY
 	PWC
 	bain
 	mckinsey
+	check on the government side, instead of private)
+
+insurance*
+	fraud detection, claim models, etc
 	
-healthcare
+healthcare* - particularly computer vision stuff
 	augmedix
 	deep scribe
 	nabla
@@ -29,6 +35,9 @@ healthcare
 retail and e-commerce
 	amazon
 	salesforce
+	walmart
+	home depot
+	etc
 
 supply chain
 
@@ -36,9 +45,9 @@ energy?
 	duke energy
 	schneider electric
 	deepmind
-	shell
+	shell* data science
 	exxonmobil
-	bp
+	bp* data science
 	
 
 data centers?

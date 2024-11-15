@@ -1,4 +1,4 @@
-CALL 1
+CALL 1 (~10/15/2024)
 	overall:
 		identify 7-10 industires of interest
 		identify 10 companies of interest within each pillar		
@@ -15,5 +15,50 @@ CALL 1
 		medical field
 
 
-CALL 2
-	
+CALL 2 (11/15/2024)
+	resume feedback
+		bachelors: gradated in [year]
+		get rid of bullet points I have under the bootcamp
+		could leave off interpersonal skills all togehter
+		link projects: hyperlink them
+		want to build space for newest project entry
+		summary: remove summary title, keep text block
+		projects: add capstone + data pipeline entry
+		work experience:
+			current role
+				2nd and last bullet point on most recent job: too vague. dive deeper or remove
+				build and maintain dashboards: add what decisions were made
+			bi developer
+				remove third bullet
+ 			program analyst (tec)
+				lead with second bullet point (resolve ad hoc data requests)
+				built trakers : add "in excel"
+			program analyst (chenega)
+				shrink first and second bullets to one bullet
+				could consider getting rid of it completely
+		link github
+		add open to relocation
+	linkedin
+		add a project section: the ones I have on resume + other ones 
+		about: update with current information
+		add soemthing about ML/AI transition in my headline
+		add senior data analyst job description
+		interact: like, comment, and post. 
+			for posting: add thumbnails, short and sweet descriptions
+			reposting is good, too
+		move honors and awards content to certification section
+	industries/companies
+		big companies might be in play: networking
+		start networking once I feel comfortable talking about machine learning project
+		could start networking in the data science space earlier, possibly after holidays
+			goal would be to build/maintain a relationship, targeting a referral ask a few months after
+		non one-on-one networking is appropriate already: lunchclub.com
+		google search ai/ml events near me. sign up and attend
+		two networking events per month is a good target
+
+	next call
+		project progress
+		check in on how netowrking events have materialized
+		check back in in january
+		
+		
