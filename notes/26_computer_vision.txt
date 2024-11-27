@@ -1,0 +1,23 @@
+CNNS
+Intro to Computer Vision
+	image classification: classify images into predefined categories
+	object detection: find predefined objects within images
+	image segmentation: partition images into predefined segments
+	image generation: generate an image
+
+Convolutional Neural Networks Explained
+	
+Image Preparation for CNNs with KerasAPI
+	
+CNN Predictions
+
+
+FINE TUNING CNNS
+Fine-Tuning
+
+
+IMAGE SEGMENTATION AND OBJECT DETECTION
+	
+GANS FOR SYNTHETIC DATA GENERATION
+GANS
+	
