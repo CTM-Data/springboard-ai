@@ -1,0 +1,13 @@
+NLP
+NLP introduction
+	techniques:
+		tokenization: breaking text string into smaller parts, often individual words
+		stemming: reducing words to their root: affected, affecting = affect. 
+		lemmatization: like stemming, but can reduce non-similar words to a root. e.g. gone, going, went would reduce to go. attempts to capture the "spirit" of words
+		POS tags: "Parts of Speech" identifies nouns, verbs, adj/adv, articles, etc.
+		named entity recognition: identifies proper nouns: locations, names, companies, etc
+		chunking: combine tokens that have gone through above processes back into a "chunk" when necessary. e.g. "the google pixel 3" would be combined into one entity, instead of four separate tokens
+	nltk: python nlp library
+
+Preprocessing and Sequencing in TensorFlow
+	using tensorflow.keras.Tokenizer, you can tokenize words very easily.
