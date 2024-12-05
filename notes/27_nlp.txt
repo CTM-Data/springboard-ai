@@ -11,3 +11,14 @@ NLP introduction
 
 Preprocessing and Sequencing in TensorFlow
 	using tensorflow.keras.Tokenizer, you can tokenize words very easily.
+
+Sequencing in TensorFlow
+	sequencing takes numbers that have been assigned to each token and compiles them into sequences of numbers
+	e.g. the sentence ends up being represented as an array of numbers
+	you can also use padding to normalize the arrays to all be on length. (the length of the longest sequences)
+	shorter sequences are padded with zeros either in front or or at the end of the array
+		
+Sentiment Analysis
+	thnk of sentiment as a horizontal axis, left is one side of sentiment, right is anotehr (good v bad, for example)
+	sentiment analysis "graphs" sentences on this timeline to determine the level of goodness or badness. 
+	
