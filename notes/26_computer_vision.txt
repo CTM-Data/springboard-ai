@@ -20,4 +20,13 @@ IMAGE SEGMENTATION AND OBJECT DETECTION
 	
 GANS FOR SYNTHETIC DATA GENERATION
 GANS
+
+Recurrant Neural Networks
+	order matters
+	recurrant basically means you feed into an input to get out output, adn then that output is combined wieth another input to form another output, and so on
+	the data from "earlier" recur throughout the process. 
+
+Long Short Term Memory
+	cell state; keeps context over a longer period
+	
 	
