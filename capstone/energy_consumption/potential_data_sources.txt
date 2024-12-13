@@ -1,0 +1,6 @@
+https://www.eia.gov/opendata/documentation.php - US Energy Information Administration
+https://apps.openei.org/services/ - National Renewable Energy Laboratory
+https://openei.org/wiki/Utility_Rate_Database - Open Energy Information
+	US rates csv link: https://openei.org/apps/USURDB/download/usurdb.csv.gz
+	International rates json link: https://openei.org/apps/IURDB/download/iurdb.csv.gz
+
