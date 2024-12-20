@@ -1,0 +1,8 @@
+UNIT 18 - YOUR ELEVATOR PITCH
+	I'm a data professional/AI evangelist with a strong background in analytics that turns raw data into actionable insights.
+	At GDIT, I analyze complex datasets using Python and SQL and develop dynamic Tableau dashboards to deliver the insights.
+	I'm also upskilling in AI/ML through an advanced bootcamp which focuses on deep learning, NLP, and model deployment.
+	I'm passionate about embracing AI to create cutting-edge and impactful solutions.
+	I'm eager to apply my skills in a data science or ai/ml engineering role.
+	 
+	
