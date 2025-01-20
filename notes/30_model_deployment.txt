@@ -1,0 +1,56 @@
+ML PROJECT LIFECYCLE
+ML PRODUCTION III
+	ML project life cycle
+		1. scoping
+		2. data
+		3. modeling
+		4. deployment
+
+MODEL PRODUCTION V
+	watch out for data drift and concept drift
+	data drift = data distribution of the population changes over time after your model has been trained
+	aka the performance of your model starts to degrade
+	concept drift = desired mapping from x to y changes for some reason
+
+	software engineering questions
+		checklist of questions:
+			- realtime or batch? realtime would be user speeching into voice recogition software 
+			- cloud vs edge/browser? 
+			- compute resources: how many do we have? 
+			- latency and throughput, measured in queries per second (QPS). typical is 500ms (half a second) for speech recognition
+			- logging
+			- security and privacy 
+
+MODEL PRODUCTION VI
+	common deployment cases
+		- new product capability
+		- automate/assist with manual task
+		- replace previous ML system
+	key ideas:
+		- gradual ramp up with monitoring
+		- rollback
+	deployment types: 	
+		- shadow mode: new system might be deployed alongside existing process for comparison purposes. allows you to gather data of how algo is performing
+		- canary deployment: divert very small % of traffic to new system and see how it does. ramp up if results look positive
+		- blue green deployment: blue (old) system is getting sent all traffic by router. then you switch everything to green (new) sytem and monitor. has advantage of easy rollback, can simply re-divert traffic back to old service if needed
+	degrees of automation
+		- human only, shadow mode, AI assistance, parital automation, full automation
+		- ai assistance and parital automation are "human in the loop" automation processes
+
+MODEL PRODUCTION VII
+	metrics to track as you deploy:
+		- memory, compute, latency, throughput, server load (software metrics)
+		- avg input length (e.g. speech recognition), avg input volumne, % of missing values (input metrics; tracking if things are changing in your basic input)
+		- # times NULL was returned by model, # of times user redoes the process (indicating they were satisfied with initial model output) (output metrics)
+	key points for monitoring:
+		- set thresholds for alarms of specific metrics
+		- adapt thresholds and metrics over time. deployment is iterative, too
+
+MODEL PRODUCTION VIII
+	machine learning pipelines: multiple steps with each step being a different learning algorithm
+	for example, an algo to determine if someone is talking, then a second one to predict a text-transcript 
+
+
+
+
+MLOPS
