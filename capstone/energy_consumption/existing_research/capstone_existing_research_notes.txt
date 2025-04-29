@@ -1,0 +1,23 @@
+https://paperswithcode.com/paper/energy-price-modelling-a-comparative
+https://arxiv.org/pdf/2411.03372v1
+
+" Particularly, transformer networks, a subset of deep learning models, have had a
+significant influence in many branches of data analysis, including time series forecasting. These transformer models
+offer encouraging improvements over classical approaches due to their capacity for handling long-term dependencies
+and very complex patterns."
+
+-use transformer models or LLM models
+
+
+
+https://paperswithcode.com/paper/graph-neural-networks-for-learning-real-time
+https://arxiv.org/pdf/2106.10529v1
+
+To address the scalability and adaptivity issues of existing end-to-end OPF learning solutions, we propose a new graph neural network (GNN) framework for predicting the electricity market prices from solving OPFs.
+
+
+
+
+https://paperswithcode.com/paper/powermamba-a-deep-state-space-model-and
+https://arxiv.org/pdf/2412.06112v1
+
