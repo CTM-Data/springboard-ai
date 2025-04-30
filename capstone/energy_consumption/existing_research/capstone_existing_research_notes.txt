@@ -21,3 +21,12 @@ To address the scalability and adaptivity issues of existing end-to-end OPF lear
 https://paperswithcode.com/paper/powermamba-a-deep-state-space-model-and
 https://arxiv.org/pdf/2412.06112v1
 
+
+
+
+https://www.sciencedirect.com/science/article/pii/S2352484724007327#:~:text=Forecasts%20of%20electricity%20prices%20based,of%20novel%20electricity%20market%20scenarios.
+	dir to investigate: https://zenodo.org/records/14145028
+
+
+very simple but good reproducer: https://github.com/Abhaykumar04/Energy-Price-Prediction-using-Machine-Learning/tree/main
+
