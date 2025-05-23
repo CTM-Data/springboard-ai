@@ -1,0 +1,36 @@
+"Multi-Source Short-Term Crypto Price Movement Prediction Using ML"
+"Explainable AI for Crypto Trading Signals: Understanding the Why Behind the Buy"
+reference: https://chatgpt.com/c/681d240b-6174-800e-b89c-1872aa66bc71
+reference: https://claude.ai/chat/8ebc34bc-8677-47a8-809c-f54626f805d1
+
+Aim: 
+	predict where a Crypto currency is will be up or down tomorrow.
+	explain the reasoning using AI interpretability
+Data: 
+	open/high/low/close/volume data via crypto apis
+		CoinCap API free tier
+	on-chain metrics
+		block chair
+		blockcypher
+		mempool.space
+		coinbase?
+	sentiment data from reddit, twitter, or other source
+		reddit api
+		newsAPI
+		tweepy? for twitter
+	
+Models:
+	logistic regression as a baseline
+	random forest or xgboost? 
+	maybe a third, possibly a transformer? 
+	explainability: SHAP (most likely), LIME (also possible)
+	
+Evaluation:
+	accuracy, precision, recall, f1
+	roc auc
+	confusion matrix
+	backtest how my the recommendations would have performed in different markets (bull/bear/sideways)
+
+Deliverable:
+	[stretch] streamlit or deepnote real-time app, refreshes every minute, gives recommendation. includes reason
+	notebook or similar showing the results of the analysis, but maybe not interactive
