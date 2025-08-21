@@ -1,0 +1,55 @@
+deployment vehicle: deepnote app (already spoke to David and received approval)
+
+architecture: a core.py file with relevant functions, a notebook, which imports core.py and runs nightly to refresh the data and update the model, and an app.ipynb notebook that will source the actual end-user application interface
+retraining: data is small, so frequent retraining is feasible during the nightly run. in this use case retraining is crucial because the btc landscape changes a lot and is very difficult to generalize across multiple market conditions.
+data drift: a 90-day training window proved highly effective for model precision, but that could slowly change as new days are added to the data. 
+probability threshold: the model defaults to a 0.50 probability threshold to predict up (aka up at least 1%), but that might need to be tweaked as well
+
+
+pseudo code: 
+core.py: 
+CONST THRESHOLD = 0.50
+CONST WINDOW_DAYS = 90
+CONST SCOREBOARD_PATH = "scoreboard.csv"
+
+# data loading
+function load_raw_data() -> df_raw
+function build_processed_dataset(df_raw) -> df_processed
+
+# model training
+function get_recent_window(df_processed, window_days) -> X_train, y_train, X_today (aka X_test)
+function random_search_cv(X_train, y_train) -> model with best_params
+function predict_with_threshold(model, X, thr=THRESHOLD) -> (preds, probs)
+
+# scoreboarding (for the app)
+function upsert_prediction_row(date_for_str, prob, pred, threshold)
+function backfill_known_actuals(df_with_timestamp_and_is_up_tomorrow) -> (sb, n_backfilled)
+
+
+scheduled_run.ipynb
+# grab fresh data after market close
+load_raw_data()
+
+# process it
+build_processed_dataset()
+
+# train model
+get_recent_window()
+random_search_cv()
+
+# make prediction about tomorrow based on todays features
+predict_with_threshold()
+
+# update the scoreboard
+upsert_prediction_row()
+backfill_known_actuals()
+
+
+app.ipynb
+# read in scoreboard, craft a headline based on the prediction's contents, display probability and threshold
+
+# visualize past (green for correct and red for wrong) and pending predictions (grey)
+
+# visualize rolling precision, once the scoreboard has enough data points
+
+
